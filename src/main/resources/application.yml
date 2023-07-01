@@ -1,0 +1,21 @@
+company:
+  name: Test
+spring:
+  profiles:
+    active: qa
+    
+    
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+  
+mydatasource:
+  password: prodPassword
+  username: prodUser
+  
+company:
+  name: production
+ 

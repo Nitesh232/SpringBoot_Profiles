@@ -1,0 +1,6 @@
+mydatasource:
+  password: qaPassword
+  username: qaUser
+  
+company:
+  name: Quality Assurance
